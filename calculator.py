@@ -56,6 +56,7 @@ def ans(*args):
 def clear(*args):
     result.set(int(result.get()-result.get()))
     inp2.set(inp2.get()-inp2.get())
+    opv1.set(opv1.get()-opv1.get())
 def numpad1(*args):
     nmp.set(1)
     if inp1.get() == 0:
