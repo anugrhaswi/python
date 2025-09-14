@@ -105,7 +105,7 @@ mainframe.grid(row=0, column=0, sticky="N W E S")
 mainframe.grid_columnconfigure(0, weight=1)
 mainframe.grid_columnconfigure(1, weight=1)
 
-# Now center the label properly
+#centers the label properly
 ##title
 ttk.Label(mainframe, text="Guess The Number", 
           foreground="White", background="Black", 
